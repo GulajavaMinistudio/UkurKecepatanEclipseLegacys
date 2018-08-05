@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="none"    >
+        
+        
+        <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"    >
+            
+            <LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="@dimen/activity_vertical_margin"
+		    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+		    android:layout_marginRight="@dimen/activity_horizontal_margin"
+		    android:orientation="vertical"
+		    android:background="@color/putih"  >
+		    
+		        <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent" 
+		        android:layout_marginTop="8dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:layout_marginBottom="14dp"
+		        android:orientation="vertical"   >
+		            
+		            <TextView 
+			        android:layout_width="wrap_content"    
+			        android:layout_height="wrap_content"
+			        android:text="@string/bataskecepatanmax" 
+			        android:textSize="@dimen/ukuranteksjudulutama" 
+			        android:textColor="@color/warnateksjudul"  />
+		            
+		            
+		            <LinearLayout 
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="8dp"
+		            android:orientation="horizontal"  
+		            android:gravity="center"  >
+		                
+		                <EditText 
+		                android:id="@+id/editcepatan"    
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1"
+		                android:singleLine="true"
+		                android:inputType="number"  
+		                android:imeOptions="actionDone"
+		                android:maxLength="3" 
+		                android:hint="@string/hintkecepatan" />
+		                
+		                
+		                <View 
+			            android:layout_width="1dp"
+			            android:layout_height="24dp"
+			            android:layout_marginLeft="5dp"
+			            android:layout_marginRight="5dp"
+			            android:background="@color/abugaris"    />
+		                
+		                
+		                <Spinner 
+		                android:id="@+id/spinsatuan"    
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:prompt="@string/prompspin"  
+						android:spinnerStyle = "@android:style/Widget.Spinner.DropDown"  />
+		                
+		                
+		            </LinearLayout>
+		            
+		            
+		            
+		        </LinearLayout>
+		         
+		        <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="1dp"
+	            android:layout_marginTop="16dp"
+	            android:background="@color/abugaris"    />
+                
+                
+                <Button 
+                android:id="@+id/tombolsimpanbatas"    
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"  
+	            android:background="@drawable/tombolmenutama"
+	            android:text="@string/setelbatascepatan"
+	            android:textColor="@color/hijaunow"
+	            android:textSize="@dimen/ukuranteksbiasa"
+	            android:drawableLeft="@drawable/ic_simpan"
+	            android:drawablePadding="5dp"
+	            android:gravity="center_vertical"
+	            android:textStyle="bold" />
+		        
+		        
+		    </LinearLayout>
+		    
+		    <View 
+		    android:layout_width="fill_parent"
+		    android:layout_height="2dp"
+		    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+		    android:layout_marginRight="@dimen/activity_horizontal_margin"
+		    android:background="@color/abubayangan"    />
+            
+            
+		    
+		    <LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="@dimen/activity_vertical_margin"
+		    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+		    android:layout_marginRight="@dimen/activity_horizontal_margin"
+		    android:orientation="vertical"
+		    android:background="@color/putih"  >
+		    
+		        <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent" 
+		        android:layout_marginTop="8dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:layout_marginBottom="14dp"
+		        android:orientation="vertical"   >
+		            
+		            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/bantuanbatas" 
+	                android:textColor="@color/warnateksjudul"
+	                android:textSize="@dimen/ukuranteksjudulutama" />
+		            
+		            <TextView 
+	                android:id="@+id/teksbatascepatan"    
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/bantuanhelpbatas" 
+	                android:textColor="@color/warnatekssubjudul"
+	                android:textSize="@dimen/ukuranteksbiasa" />
+		            
+		            
+	            </LinearLayout>
+		            
+		            
+		            
+           	</LinearLayout>
+		    
+		    
+		    
+		    <View 
+		    android:layout_width="fill_parent"
+		    android:layout_height="2dp"
+		    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+		    android:layout_marginRight="@dimen/activity_horizontal_margin"
+		    android:layout_marginBottom="16dp"
+		    android:background="@color/abubayangan"    />
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+        </LinearLayout>
+        
+    </ScrollView>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/abubgnow" >
+
+
+
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@color/hitam"    />
+
+
+
+
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="none"    >
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"    >
+
+            <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="@dimen/activity_vertical_margin"
+		    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+		    android:layout_marginRight="@dimen/activity_horizontal_margin"
+		    android:orientation="vertical"
+		    android:background="@color/putih"  >
+
+		        <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:layout_marginBottom="14dp"
+		        android:orientation="vertical"   >
+
+		            <!-- GAMBAR ICON APLIKASI DAN VERSINYA -->
+					<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+						<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:src="@drawable/iconapp"
+						/>
+
+
+						<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="8dp"
+						android:layout_gravity="center_vertical"
+						android:orientation="vertical"
+						>
+							<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Ukur Kecepatan"
+							android:textColor="@color/warnateksjudul"
+							android:textSize= "@dimen/ukuranteksjudul"
+							/>
+							<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Versi 1.0.1"
+							android:textColor="@color/warnatekssubjudul"
+							android:textSize="@dimen/ukuranteksbiasa"
+							/>
+						</LinearLayout>
+					</LinearLayout>
+
+
+
+					<!-- DESIGNED BY -->
+					<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="8dp"
+					android:text="Desain dan Pengkodean"
+					android:textColor="@color/warnateksjudul"
+					android:textSize= "@dimen/ukuranteksjudulutama"
+					android:textStyle="bold"
+					/>
+
+					<!-- GAMBAR GULAJAVA, NAMA GULAJAVA, DAN CONTACT -->
+					<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="8dp"
+					android:gravity="center_vertical"
+					android:orientation="horizontal" >
+
+						<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:src="@drawable/icon_aboutgula"
+						/>
+
+						<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:orientation="vertical"
+						>
+							<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Gulajava Ministudio"
+							android:textColor="@color/warnateksjudul"
+							android:textSize= "@dimen/ukuranteksjudul"
+							/>
+							<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Email dot Com"
+							android:textColor="@color/warnatekssubjudul"
+							android:textSize="@dimen/ukuranteksbiasa"
+							/>
+						</LinearLayout>
+					</LinearLayout>
+
+
+	            </LinearLayout>
+            </LinearLayout>
+
+            <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="2dp"
+		    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+		    android:layout_marginRight="@dimen/activity_horizontal_margin"
+		    android:background="@color/abubayangan"    />
+
+
+
+            <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="@dimen/activity_vertical_margin"
+		    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+		    android:layout_marginRight="@dimen/activity_horizontal_margin"
+		    android:orientation="vertical"
+		    android:background="@color/putih"  >
+
+		        <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:layout_marginBottom="14dp"
+		        android:orientation="vertical"   >
+
+
+		            <!-- HELP DAN BANTUAN  -->
+					<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="Bantuan"
+					android:textColor="@color/warnateksjudul"
+					android:textSize= "@dimen/ukuranteksjudulutama"
+					/>
+
+					<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="8dp"
+					android:orientation="vertical"
+					>
+
+						<!-- BARIS 1 -->
+						<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:layout_marginBottom="10dp"
+						android:orientation="horizontal">
+
+							<!-- ISI KATA  NO.1 -->
+							<LinearLayout
+							android:layout_width="20dp"
+							android:layout_height="fill_parent"
+							android:orientation="vertical">
+								<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="1"
+								android:textColor="@color/warnateksjudul"
+								android:textSize="@dimen/ukuranteksjudul"
+								android:textStyle = "bold"
+								/>
+							</LinearLayout>
+
+							<!-- ISI KATA PETUNJUK NO.1 -->
+							<LinearLayout
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:orientation="vertical"
+							>
+								<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="@string/bantuan1"
+								android:textColor="@color/warnatekssubjudul"
+								android:textSize="@dimen/ukuranteksbiasa"
+								/>
+							</LinearLayout>
+						</LinearLayout>
+
+
+
+
+						<!-- BARIS 2 -->
+						<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:layout_marginBottom="10dp"
+						android:orientation="horizontal">
+
+							<!-- ISI KATA  NO.2 -->
+							<LinearLayout
+							android:layout_width="20dp"
+							android:layout_height="fill_parent"
+							android:orientation="vertical">
+								<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="2"
+								android:textColor="@color/warnateksjudul"
+								android:textSize="@dimen/ukuranteksjudul"
+								android:textStyle = "bold"
+								/>
+							</LinearLayout>
+
+							<!-- ISI KATA PETUNJUK NO.2 -->
+							<LinearLayout
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:orientation="vertical"
+							>
+								<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="@string/bantuan2"
+								android:textColor="@color/warnatekssubjudul"
+								android:textSize="@dimen/ukuranteksbiasa"
+								/>
+							</LinearLayout>
+						</LinearLayout>
+
+
+
+						<!-- BARIS 3 -->
+						<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:layout_marginBottom="10dp"
+						android:orientation="horizontal">
+
+							<!-- ISI KATA  NO.3 -->
+							<LinearLayout
+							android:layout_width="20dp"
+							android:layout_height="fill_parent"
+							android:orientation="vertical">
+								<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="3"
+								android:textColor="@color/warnateksjudul"
+								android:textSize="@dimen/ukuranteksjudul"
+								android:textStyle = "bold"
+								/>
+							</LinearLayout>
+
+							<!-- ISI KATA PETUNJUK NO.2 -->
+							<LinearLayout
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:orientation="vertical"
+							>
+								<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="@string/bantuan3"
+								android:textColor="@color/warnatekssubjudul"
+								android:textSize="@dimen/ukuranteksbiasa"
+								/>
+							</LinearLayout>
+						</LinearLayout>
+
+
+
+
+
+						<!-- BARIS 4 -->
+						<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:layout_marginBottom="10dp"
+						android:orientation="horizontal">
+
+							<!-- ISI KATA  NO.4 -->
+							<LinearLayout
+							android:layout_width="20dp"
+							android:layout_height="fill_parent"
+							android:orientation="vertical">
+								<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="4"
+								android:textColor="@color/warnateksjudul"
+								android:textSize="@dimen/ukuranteksjudul"
+								android:textStyle = "bold"
+								/>
+							</LinearLayout>
+
+							<!-- ISI KATA PETUNJUK NO.4 -->
+							<LinearLayout
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:orientation="vertical"
+							>
+								<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="@string/bantuan4"
+								android:textColor="@color/warnatekssubjudul"
+								android:textSize="@dimen/ukuranteksbiasa"
+								/>
+							</LinearLayout>
+						</LinearLayout>
+
+
+
+						<!-- BARIS 5 -->
+						<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:layout_marginBottom="10dp"
+						android:orientation="horizontal">
+
+							<!-- ISI KATA  NO.5 -->
+							<LinearLayout
+							android:layout_width="20dp"
+							android:layout_height="fill_parent"
+							android:orientation="vertical">
+								<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="5"
+								android:textColor="@color/warnateksjudul"
+								android:textSize="@dimen/ukuranteksjudul"
+								android:textStyle = "bold"
+								/>
+							</LinearLayout>
+
+							<!-- ISI KATA PETUNJUK NO.5 -->
+							<LinearLayout
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:orientation="vertical"
+							>
+								<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="@string/bantuan5"
+								android:textColor="@color/warnatekssubjudul"
+								android:textSize="@dimen/ukuranteksbiasa"
+								/>
+							</LinearLayout>
+						</LinearLayout>
+
+
+
+						<!-- BARIS 6 -->
+						<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:layout_marginBottom="10dp"
+						android:orientation="horizontal">
+
+							<!-- ISI KATA  NO.6 -->
+							<LinearLayout
+							android:layout_width="20dp"
+							android:layout_height="fill_parent"
+							android:orientation="vertical">
+								<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="6"
+								android:textColor="@color/warnateksjudul"
+								android:textSize="@dimen/ukuranteksjudul"
+								android:textStyle = "bold"
+								/>
+							</LinearLayout>
+
+							<!-- ISI KATA PETUNJUK NO.6 -->
+							<LinearLayout
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:orientation="vertical"
+							>
+								<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="@string/bantuan6"
+								android:textColor="@color/warnatekssubjudul"
+								android:textSize="@dimen/ukuranteksbiasa"
+								android:autoLink="all"
+								/>
+							</LinearLayout>
+						</LinearLayout>
+
+
+
+
+
+
+					</LinearLayout>
+	            </LinearLayout>
+	        </LinearLayout>
+
+
+            <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="2dp"
+		    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+		    android:layout_marginRight="@dimen/activity_horizontal_margin"
+		    android:layout_marginBottom="16dp"
+		    android:background="@color/abubayangan"    />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

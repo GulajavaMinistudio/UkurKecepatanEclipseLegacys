@@ -1,0 +1,81 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+        <item name = "android:actionBarStyle">@style/actionbarUtama</item>
+        <item name = "android:windowBackground">@color/abubgnow</item>
+        <item name = "android:actionBarTabTextStyle">@style/CustomTabTeksStyle</item>
+    	<item name = "android:actionBarTabBarStyle">@style/customTab</item>
+            	
+    </style>
+    
+    <!-- <item name = "android:typeface">sans</item> 	 -->
+    
+
+    
+    <!-- STYLE ACTION BAR UTAMA  -->
+    <style name = "actionbarUtama" parent = "@android:style/Widget.Holo.Light.ActionBar">
+        <item name = "android:background">@color/bgactionbar</item>
+        <item name = "android:backgroundSplit">@color/abusplit</item>
+    	<item name = "android:backgroundStacked">@color/abusplit</item>
+        <item name = "android:titleTextStyle">@style/TextAppearance.Widget.ActionBar.Title</item>
+    </style>
+    
+    
+    <style name="TextAppearance.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Medium">
+        <item name = "android:textColor">@color/putih</item>
+    </style>
+    
+    
+    <!-- WARNA TEKS TAB ACTION BAR -->
+     <style name = "CustomTabTeksStyle" parent = "@android:style/Widget.Holo.ActionBar.TabText">
+         <item name = "android:textColor">@color/hitam</item>
+     </style>
+    
+    
+    <!-- WARNA DIVIDER -->
+    <style name = "customTab" parent = "@android:style/Widget.Holo.ActionBar.TabBar">
+        <item name = "android:showDividers">middle</item>
+        <item name = "android:divider">@drawable/divider</item>
+        <item name = "android:dividerPadding">10dp</item>
+    </style>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

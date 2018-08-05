@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- DIMENSI -->
+    <dimen name = "tebalgaristombol">0dp</dimen>
+    <dimen name = "paddingtombol">5dp</dimen>	
+    <dimen name = "paddingtomboltab">0dp</dimen>	
+    
+    <!-- SKEMA UKURAN BARU ALA GOOGLE NOW -->
+    <dimen name="activity_horizontal_margin">14dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    
+    <!-- UKURAN TEKS -->
+    <dimen name = "ukuranteksjudul">18sp</dimen>
+    <dimen name = "ukuranteksjudulutama">20sp</dimen>
+    <dimen name = "ukuranteksbiasa">16sp</dimen>
+
+</resources>

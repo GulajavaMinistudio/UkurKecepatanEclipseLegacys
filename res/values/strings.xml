@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ukur Kecepatan</string>
+    <string name = "action_tentang">Tentang</string>
+    <string name = "action_keluar">Keluar</string>
+
+
+    <!-- WARNA -->
+    <color name = "hitam">#000000</color>
+    <color name = "putih">#ffffff</color>
+    <color name = "transparan">#00000000</color>
+    <color name = "abubg">#e5e5e5</color>
+    <color name = "abubayangan">#dbdbdb</color>
+    <color name = "abusplit">#e1e1e1</color>
+    <color name = "abudividertab">#808285</color>
+    <color name = "bgactionbar">#2d2d2d</color>
+    <color name = "warnanyala">#669900</color>
+    <color name = "warnamati">#cc0000</color>
+    <!-- <color name = "abutekan">#ebebeb</color> -->
+
+
+    <!-- TEMA BARU ALA GOOGLE NOW -->
+    <!-- latar belakang -->
+    <color name = "abubgnow">#ededed</color>
+    <!-- WARNATEKS -->
+    <color name = "warnateksjudul">#555555</color>
+    <color name = "warnatekssubjudul">#777777</color>
+	<!--
+    <color name = "abugaris">#dbdbdb</color>
+      -->
+    <color name = "abugaris">#c2c2c2</color>
+	<color name = "birujam">#0099cc</color>
+	<color name = "hijaunow">#669900</color>
+	<color name = "merahnow">#cc0000</color>
+	<color name = "abubgkrem">#f2f0e8</color>
+
+
+
+
+    <!-- BANTUAN -->
+    <string name = "bantuan1">Aplikasi Ukur Kecepatan adalah aplikasi untuk mengukur kecepatan kendaraan yang anda naiki. Aplikasi ini mengukur kecepatan kendaraan yang anda naiki dengan bantuan kordinat GPS dan kordinat jaringan seluler atau jaringan WiFi yang digunakan oleh perangkat telepon atau tablet anda. Aplikasi akan menampilkan 3 tipe kecepatan yaitu kilometer/jam (kph) , mil/jam (mph) , dan knot (knt) .</string>
+    <string name = "bantuan2">Sebelum menggunakan aplikasi ini, <b>nyalakan terlebih dahulu GPS dan koneksi internet</b> di perangkat  telepon atau tablet anda. Jika sudah dinyalakan, maka status koneksi di halaman awal aplikasi akan berubah menjadi <b>NYALA</b> .</string>
+    <string name = "bantuan3">Jika status GPS dan koneksi internet sudah menyala, silahkan tekan tombol <b>Cek Kecepatan</b> di halaman awal aplikasi. Anda akan dibawa ke halaman berikutnya yang menampilkan kecepatan dari kendaraan yang anda naiki.</string>
+    <string name = "bantuan4">Di halaman <b>Besar Kecepatan</b>, anda akan melihat 3 jenis tipe kecepatan, yaitu Kph, Mph, dan Knot. Untuk berpindah antar jenis kecepatan, cukup tekan bilah menu (tab) yang ada di halaman Besar Kecepatan, dan kecepatan yang muncul akan berubah sesuai tipe kecepatan yang anda pilih.</string>
+	<string name = "bantuan5">Anda bisa <b>menyetel batas kecepatan</b> dari aplikasi pengukur kecepatan ini.  Jika kecepatan kendaraan anda melebihi batas kecepatan yang telah anda setel, maka aplikasi akan membunyikan alarm peringatan melalui halaman Besar Kecepatan. Untuk menyetel batas kecepatan, tekan tombol <b>Setel Batas</b> dari halaman awal aplikasi.</string>
+    <string name = "bantuan6">Aplikasi ini memanfaatkan GPS dan koneksi internet hanya untuk menghitung kecepatan anda terhadap bumi. Selengkapnya mengenai keamanan privasi pengguna bisa dilihat di  http://lorem.ipsuman .</string>
+
+
+    <!-- TEKS DI HALAMAN LAYOUT -->
+    <!-- TEKS LAYOUT KECEPATAN -->
+    <string name = "judulgrafik">Grafik</string>
+    <string name = "statuskecepatan">Status Kecepatan</string>
+    <string name = "ukurankecepatan">Ukuran</string>
+
+
+    <!-- TEKS LAYOUT HALAMAN AWAL -->
+    <string name = "halawalsubs">Internet dan GPS</string>
+    <string name = "statusGPS">Status GPS</string>
+    <string name = "statusInternet">Status Internet</string>
+    <string name = "kordinatanda">Posisi Pengguna</string>
+    <string name = "bataskecepatan">Batas Kecepatan</string>
+    <string name = "ketbataskecepatan">Batas kecepatan anda disetel pada </string>
+    <string name = "cekecepatan">Cek Kecepatan</string>
+    <string name = "setelbatas">Setel Batas</string>
+
+
+    <!-- TEKS LAYOUT HALAMAN BATAS KECEPATAN -->
+    <string name = "hintkecepatan">nilai batas</string>
+    <string name = "bataskecepatanmax">Batas Kecepatan</string>
+    <string name = "prompspin">Satuan Kecepatan</string>
+    <string name = "bantuanbatas">Bantuan</string>
+    <string name = "setelbatascepatan">Simpan</string>
+    <string name = "bantuanhelpbatas">Masukkan batas kecepatan dalam km/jam. Nilai yang diperbolehkan adalah antara 10 km/jam sampai dengan 180 km/jam.</string>
+    <string name = "bantuanhelpbatasmph">Masukkan batas kecepatan dalam mil/jam. Nilai yang diperbolehkan adalah antara 6 mil/jam sampai dengan 112 mil/jam.</string>
+    <string name = "bantuanhelpbatasknot">Masukkan batas kecepatan dalam knot. Nilai yang diperbolehkan adalah antara 12 knot sampai dengan 207 knot.</string>
+
+    <string-array name = "arraycepatan">
+        <item>km/jam</item>
+        <item>mil/jam</item>
+        <item>knot</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

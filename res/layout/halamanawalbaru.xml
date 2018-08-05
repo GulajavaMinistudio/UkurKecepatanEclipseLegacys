@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/abubgnow" >
+    
+    <View 
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@color/hitam"    />
+    
+    
+    <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="none"    >
+        
+        
+        <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"    >
+        
+            
+            <LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="@dimen/activity_vertical_margin"
+		    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+		    android:layout_marginRight="@dimen/activity_horizontal_margin"
+		    android:orientation="vertical"
+		    android:background="@color/putih"  >
+		    
+                <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" 
+		        android:background="@color/warnatekssubjudul"   >
+		            
+		              <TextView 
+				      android:layout_width="wrap_content"    
+				      android:layout_height="wrap_content"
+				      android:layout_marginLeft="8dp"
+				      android:paddingTop="9dp"
+				      android:paddingBottom="9dp"
+				      android:text="@string/halawalsubs" 
+				      android:textSize="@dimen/ukuranteksjudul" 
+				      android:textStyle="bold"
+				      android:textColor="@color/putih"  />
+		            
+		        </LinearLayout>
+		        
+                
+                
+                <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"    >
+		              
+                    
+                      <LinearLayout 
+                      android:layout_width="0dp"
+                      android:layout_height="fill_parent"
+                      android:layout_marginTop="8dp"
+                      android:layout_weight="1"
+                      android:orientation="vertical" 
+                      android:gravity="center"   >
+                          
+                           <TextView 
+						   android:layout_width="wrap_content"
+				           android:layout_height="wrap_content"
+				           android:layout_marginTop="8dp"   
+				           android:textSize="@dimen/ukuranteksjudul" 
+				           android:text="@string/statusGPS"
+				           android:textStyle="bold"
+				           android:textColor="@color/warnateksjudul"/>      
+				          
+                          
+                           <TextView 
+			               android:id="@+id/tekstatusGPS"    
+			               android:layout_width="wrap_content"
+			               android:layout_height="wrap_content"
+			               android:layout_marginTop="2dp"   
+			               android:layout_marginBottom="8dp"
+			               android:textSize="@dimen/ukuranteksbiasa" 
+			               android:text="MATI"
+			               android:textColor="@color/warnamati"
+			               android:textStyle="bold"/>
+                          
+                          
+                      </LinearLayout>
+                      
+                      
+                      
+                      <View 
+		              android:layout_width="1dp"
+		              android:layout_height="fill_parent"
+		              android:layout_marginTop="15dp"
+		              android:layout_marginBottom="15dp"
+		              android:background="@color/abugaris"    />
+                      
+                      
+                      
+                      <LinearLayout 
+                      android:layout_width="0dp"
+                      android:layout_height="fill_parent"
+                      android:layout_marginTop="8dp"
+                      android:layout_weight="1"
+                      android:orientation="vertical" 
+                      android:gravity="center"   >
+                          
+                           <TextView 
+						   android:layout_width="wrap_content"
+				           android:layout_height="wrap_content"
+				           android:layout_marginTop="8dp"   
+				           android:textSize="@dimen/ukuranteksjudul" 
+				           android:text="@string/statusInternet"
+				           android:textStyle="bold"
+				           android:textColor="@color/warnateksjudul"/>      
+				          
+                          
+                           <TextView 
+			               android:id="@+id/tekstatuseluler"    
+			               android:layout_width="wrap_content"
+			               android:layout_height="wrap_content"
+			               android:layout_marginTop="2dp"   
+			               android:layout_marginBottom="8dp"
+			               android:textSize="@dimen/ukuranteksbiasa" 
+			               android:text="MATI"
+			               android:textColor="@color/warnamati"
+			               android:textStyle="bold"/>
+                          
+                          
+                      </LinearLayout>
+                    
+                                  
+                    
+                </LinearLayout>
+                
+                
+                <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="1dp"
+	            android:layout_marginTop="2dp"
+	            android:background="@color/abugaris"    />
+                
+                <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+	            android:layout_marginLeft="8dp"
+	            android:layout_marginRight="8dp"
+	            android:layout_marginBottom="20dp"
+	            android:layout_marginTop="20dp"
+	            android:gravity="center"
+                android:orientation="horizontal"    >
+                
+	                <ImageView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:src="@drawable/ic_gps" 
+	                android:layout_marginRight="3dp"   />
+                
+                
+	                <LinearLayout 
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="vertical"    >
+                           
+	                    <TextView 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+			            android:textSize="@dimen/ukuranteksjudul" 
+		                android:text="@string/kordinatanda"
+		                android:textColor="@color/warnateksjudul"/>
+	                    
+	                    
+	                    <TextView 
+		                android:id="@+id/tekslokasi"    
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:textSize="18sp" 
+		                android:text="0,0"
+		                android:singleLine="true"
+		                android:textColor="@color/birujam"/>	                    
+	                    
+	                </LinearLayout>
+                </LinearLayout>
+                
+          
+                <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="1dp"
+	            android:background="@color/abugaris"    />
+                
+                
+                <Button 
+                android:id="@+id/tombolcekkecepatan"    
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"  
+	            android:background="@drawable/tombolmenutama"
+	            android:text="@string/cekecepatan"
+	            android:textColor="@color/hijaunow"
+	            android:textSize="@dimen/ukuranteksbiasa"
+	            android:drawableLeft="@drawable/ikoncek"
+	            android:drawablePadding="5dp"
+	            android:gravity="center_vertical"
+	            android:textStyle="bold" />
+                
+                
+            </LinearLayout>
+            
+            
+            <View 
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@color/abubayangan"    />
+           
+            
+            <LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="@dimen/activity_vertical_margin"
+		    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+		    android:layout_marginRight="@dimen/activity_horizontal_margin"
+		    android:orientation="vertical"
+		    android:background="@color/putih"  >
+                
+                <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/bataskecepatan" 
+                android:textColor="@color/warnateksjudul"
+                android:textSize="@dimen/ukuranteksjudulutama" />
+                
+                
+                <TextView 
+                android:id="@+id/teksbatascepatan"    
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/ketbataskecepatan" 
+                android:textColor="@color/warnatekssubjudul"
+                android:textSize="@dimen/ukuranteksbiasa" />
+                
+                <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="1dp"
+	            android:background="@color/abugaris"    />
+                
+                
+                <Button 
+                android:id="@+id/tombolsetelbatas"    
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"  
+	            android:background="@drawable/tombolmenutama"
+	            android:text="@string/setelbatas"
+	            android:textColor="@color/hijaunow"
+	            android:textSize="@dimen/ukuranteksbiasa"
+	            android:drawableLeft="@drawable/ikonsetelan"
+	            android:drawablePadding="6dp"
+	            android:gravity="center_vertical"
+	            android:textStyle="bold" />
+                
+            </LinearLayout>
+            
+            <View 
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="16dp"
+            android:background="@color/abubayangan"    />
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </LinearLayout>
+        
+        
+    </ScrollView>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</LinearLayout>

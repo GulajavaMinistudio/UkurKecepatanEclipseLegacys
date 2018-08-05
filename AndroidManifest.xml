@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gulajava.speedcepat"
+    android:versionCode="2"
+    android:versionName="1.0.1"
+    android:installLocation="auto">
+
+
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+
+	<uses-permission android:name = "android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+
+	<supports-screens
+	android:anyDensity="true"
+	android:resizeable="true"
+	/>
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconapp"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+
+
+        <activity
+            android:name="gulajava.speedcepat.Loading"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="gulajava.speedcepat.HalAwalBaru"
+            android:label="Halaman Awal"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPINGAN" />
+            </intent-filter>
+        </activity>
+
+
+
+
+        <activity
+            android:name="gulajava.speedcepat.Kecepatan"
+            android:label="Besar Kecepatan"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPINGAN" />
+            </intent-filter>
+        </activity>
+
+
+
+
+        <activity
+            android:name="gulajava.speedcepat.SetelKecepatan"
+            android:label="Setel Batas Kecepatan"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPINGAN" />
+            </intent-filter>
+        </activity>
+
+      
+
+        <activity
+            android:name="gulajava.speedcepat.Tentang"
+            android:label="Tentang Aplikasi"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPINGAN" />
+            </intent-filter>
+        </activity>
+
+
+
+        <!-- REFERENSI UNTUK KONTEN PROVIDER -->
+        <provider
+        android:name="gulajava.speedcepat.database.KontenProvider"
+        android:authorities="gulajava.speedcepat.database"
+        android:exported="false"  />
+
+
+    </application>
+
+</manifest>
